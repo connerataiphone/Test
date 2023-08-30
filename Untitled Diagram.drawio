@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T15:47:43.513Z" agent="5.0 (Windows)" etag="fzYtbJzZxhAyTs7fu5MD" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T16:10:29.576Z" agent="5.0 (Windows)" etag="rQ993zMzZ3KAUv4RvCfo" version="20.8.23" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1027" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1115" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -18,20 +18,68 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=22;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8xSV0cxXtDlxZ1bWn0oY-9" target="8xSV0cxXtDlxZ1bWn0oY-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=22;fontColor=none;noLabel=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8xSV0cxXtDlxZ1bWn0oY-9" target="8xSV0cxXtDlxZ1bWn0oY-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="280" />
+              <mxPoint x="130" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-9" value="Check&lt;br&gt;Certificate Files" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fontFamily=Courier New;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-9" value="Certificate Files Exist" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fontFamily=Courier New;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="160" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8xSV0cxXtDlxZ1bWn0oY-13" value="Call Provisioning Lambda" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=22;fontFamily=Courier New;rounded=1;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="165" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-15" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="100" width="60" height="30" as="geometry" />
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=22;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8xSV0cxXtDlxZ1bWn0oY-19" target="8xSV0cxXtDlxZ1bWn0oY-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-19" value="Check MQTT Topic File" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fontFamily=Courier New;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="280" width="180" height="60" as="geometry" />
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=22;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8xSV0cxXtDlxZ1bWn0oY-19" target="8xSV0cxXtDlxZ1bWn0oY-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-19" value="MQTT Topic File Exists" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fontFamily=Courier New;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="300" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=22;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.974;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8xSV0cxXtDlxZ1bWn0oY-24" target="8xSV0cxXtDlxZ1bWn0oY-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="340" />
+              <mxPoint x="590" y="260" />
+              <mxPoint x="420" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-30" value="No &lt;br&gt;Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontFamily=Courier New;" vertex="1" connectable="0" parent="8xSV0cxXtDlxZ1bWn0oY-29">
+          <mxGeometry x="-0.2632" y="5" relative="1" as="geometry">
+            <mxPoint x="5" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=22;startArrow=none;exitX=0.785;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8xSV0cxXtDlxZ1bWn0oY-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474.24" y="390" as="sourcePoint" />
+            <mxPoint x="220" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="474" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-44" value="Registration&lt;br&gt;Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontFamily=Courier New;" vertex="1" connectable="0" parent="8xSV0cxXtDlxZ1bWn0oY-36">
+          <mxGeometry x="-0.1175" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-40" value="Subscribe to &quot;gw/$user_id&quot;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=22;fontFamily=Courier New;rounded=1;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="505" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8xSV0cxXtDlxZ1bWn0oY-24" value="&lt;div&gt;Subscribe to &quot;gw/queue&quot;&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=22;fontFamily=Courier New;rounded=1;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="300" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
